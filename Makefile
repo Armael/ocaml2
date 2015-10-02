@@ -65,7 +65,7 @@ TYPING=typing/ident.cmo typing/path.cmo \
   typing/typedecl.cmo typing/typeclass.cmo \
   typing/typemod.cmo typing/untypeast.cmo
 
-COMP=bytecomp/lambda.cmo bytecomp/printlambda.cmo \
+COMP=bytecomp/lambda.cmo bytecomp/cps.cmo bytecomp/printlambda.cmo \
   bytecomp/typeopt.cmo bytecomp/switch.cmo bytecomp/matching.cmo \
   bytecomp/translobj.cmo bytecomp/translcore.cmo \
   bytecomp/translclass.cmo bytecomp/translmod.cmo \
@@ -100,7 +100,7 @@ ASMCOMP=\
   asmcomp/arch.cmo asmcomp/debuginfo.cmo \
   asmcomp/cmm.cmo asmcomp/printcmm.cmo \
   asmcomp/reg.cmo asmcomp/mach.cmo asmcomp/proc.cmo \
-  asmcomp/clambda.cmo asmcomp/printclambda.cmo asmcomp/compilenv.cmo \
+  asmcomp/clambda.cmo asmcomp/ccps.cmo asmcomp/printclambda.cmo asmcomp/compilenv.cmo \
   asmcomp/closure.cmo asmcomp/strmatch.cmo asmcomp/cmmgen.cmo \
   asmcomp/printmach.cmo asmcomp/selectgen.cmo asmcomp/selection.cmo \
   asmcomp/comballoc.cmo \
